@@ -36,8 +36,32 @@ let myObj = {
 
 const myFunction = function (){
 
-    console.log("hello world");
+    //console.log("hello world");
 
 }
 
-console.log(typeof id);
+//console.log(typeof id);
+
+// ----------- memories -----------
+
+// stack memories (primitive) , heap memories (Non-primitive)
+
+let myYoutubename = "rameesalamdotcom"
+
+let anothername = myYoutubename
+anothername = "oneeyed"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "rameesalam@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
